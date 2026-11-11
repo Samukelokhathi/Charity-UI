@@ -1,0 +1,17 @@
+export const colors = {
+    screen: '#0B0B0B',
+    headerCard: '#E4E9E2',
+    recentCard: '#F7FBF6',
+    groupCard: '#F4FAFB',
+    button: '#D3D8D0',
+    buttonActive: '#C3C9BF',
+    chip: '#F2F5EF',
+    chipActive: '#E3EADF',
+    rowActive: '#EAF3E8',
+    badge: '#E2EC6B',
+    online: '#4CD964',
+    textDark: '#1E1E1E',
+    textMuted: '#4A4D48',
+    textLabel: '#6B6F68',
+    avatarText: '#3A2B4D',
+  };
