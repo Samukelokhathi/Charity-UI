@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { stories } from '../data/chats';
 import { colors } from '../theme';
-import IconButton from './IconButton';
+import IconButton from './iconButton';
 import StoryChip from './storyChip';
 
 export default function ChatsHeader() {
