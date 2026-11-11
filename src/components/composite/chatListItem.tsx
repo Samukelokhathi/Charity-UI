@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { colors } from "../theme";
-import Badge from "./base/badge";
+import { colors } from "../../theme";
+import Badge from "../base/badge";
 
 type Props = {
   avatar: ReactNode;

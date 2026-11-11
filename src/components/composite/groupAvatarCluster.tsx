@@ -1,5 +1,5 @@
 import { StyleSheet, Text, View } from "react-native";
-import Avatar from "./base/avatar";
+import Avatar from "../base/avatar";
 
 export default function GroupAvatarCluster({ extra = 6 }: { extra?: number }) {
   return (
