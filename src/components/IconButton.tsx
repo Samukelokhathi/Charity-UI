@@ -1,6 +1,6 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 import { colors } from '../theme';
-import Badge from './Badge';
+import Badge from './badge';
 
 type Props = { label: string; badgeCount?: number };
 
