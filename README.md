@@ -393,7 +393,6 @@ Create the Android build with the preview profile (run this inside the project f
 eas build --platform android --profile preview
 ```
 
-> When asked to generate a new Android keystore, answer **yes**. When asked for the project name, accept the default. The build runs on Expo's servers and can take from a few minutes to a couple of hours.
 
 Install the APK on a phone:
 
