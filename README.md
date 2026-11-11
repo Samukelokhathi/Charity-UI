@@ -129,57 +129,61 @@ During this project I practiced:
 ## 📁 Project Structure
 
 ```text
-samukelokhathi-charity-ui/
-├── README.md
-├── AGENTS.md
-├── app.json
-├── LICENSE
-├── package.json
-├── tsconfig.json
-├── assets/
-│   └── expo.icon/
-│       └── icon.json
-├── scripts/
-│   └── reset-project.js
-├── src/
-│   ├── global.css
-│   ├── app/
-│   │   ├── _layout.tsx
-│   │   ├── explore.tsx
-│   │   └── index.tsx
-│   ├── components/
-│   │   ├── animated-icon.module.css
-│   │   ├── animated-icon.tsx
-│   │   ├── animated-icon.web.tsx
-│   │   ├── app-tabs.tsx
-│   │   ├── app-tabs.web.tsx
-│   │   ├── avatar.tsx
-│   │   ├── badge.tsx
-│   │   ├── chatListItem.tsx
-│   │   ├── chatsHeader.tsx
-│   │   ├── external-link.tsx
-│   │   ├── groupAvatarCluster.tsx
-│   │   ├── hint-row.tsx
-│   │   ├── iconButton.tsx
-│   │   ├── sectionCard.tsx
-│   │   ├── storyChip.tsx
-│   │   ├── themed-text.tsx
-│   │   ├── themed-view.tsx
-│   │   ├── web-badge.tsx
-│   │   └── ui/
-│   │       └── collapsible.tsx
-│   ├── constants/
-│   │   └── theme.ts
-│   ├── data/
-│   │   └── chats.ts
-│   ├── hooks/
-│   │   ├── use-color-scheme.ts
-│   │   ├── use-color-scheme.web.ts
-│   │   └── use-theme.ts
-│   └── theme/
-│       └── index.ts
-└── .claude/
-    └── settings.json
+Directory structure:
+└── samukelokhathi-charity-ui/
+    ├── README.md
+    ├── AGENTS.md
+    ├── app.json
+    ├── LICENSE
+    ├── package.json
+    ├── tsconfig.json
+    ├── assets/
+    │   └── expo.icon/
+    │       └── icon.json
+    ├── scripts/
+    │   └── reset-project.js
+    ├── src/
+    │   ├── global.css
+    │   ├── app/
+    │   │   ├── _layout.tsx
+    │   │   ├── explore.tsx
+    │   │   └── index.tsx
+    │   ├── components/
+    │   │   ├── animated-icon.module.css
+    │   │   ├── animated-icon.tsx
+    │   │   ├── animated-icon.web.tsx
+    │   │   ├── app-tabs.tsx
+    │   │   ├── app-tabs.web.tsx
+    │   │   ├── external-link.tsx
+    │   │   ├── hint-row.tsx
+    │   │   ├── themed-text.tsx
+    │   │   ├── themed-view.tsx
+    │   │   ├── web-badge.tsx
+    │   │   ├── base/
+    │   │   │   ├── avatar.tsx
+    │   │   │   ├── badge.tsx
+    │   │   │   └── iconButton.tsx
+    │   │   ├── composite/
+    │   │   │   ├── chatListItem.tsx
+    │   │   │   ├── chatsHeader.tsx
+    │   │   │   ├── groupAvatarCluster.tsx
+    │   │   │   ├── sectionCard.tsx
+    │   │   │   └── storyChip.tsx
+    │   │   └── ui/
+    │   │       └── collapsible.tsx
+    │   ├── constants/
+    │   │   └── theme.ts
+    │   ├── data/
+    │   │   └── chats.ts
+    │   ├── hooks/
+    │   │   ├── use-color-scheme.ts
+    │   │   ├── use-color-scheme.web.ts
+    │   │   └── use-theme.ts
+    │   └── theme/
+    │       └── index.ts
+    └── .claude/
+        └── settings.json
+
 ```
 
 ### What each folder does
